@@ -11,6 +11,7 @@ function App() {
           title="Azienda 1" 
           content="Azienda che si occupa di ." 
           imageUrl="https://via.placeholder.com/300"
+          button="Button"
         />
         <Card 
           title="Azienda 2" 
