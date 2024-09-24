@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Card from './Components/Card.jsx';
-import './Style/App.css';
+import Card from '../Components/Card.jsx';
+import '../Style/App.css';
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
-import { Data } from "./utils/Data.js";
+import { Data } from "../utils/Data.js";
 
 Chart.register(CategoryScale);
 
