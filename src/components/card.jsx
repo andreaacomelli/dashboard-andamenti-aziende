@@ -1,10 +1,11 @@
 import React from 'react';
-import './card.css';
+import '../Style/Card.css';
+import LineChart from './LineChart';
 
-const Card = ({ title, content, imageUrl, button }) => {
+const Card = ({ title, content, chartTest, button }) => {
   return (
     <div className="card">
-      <img src={imageUrl} alt={title} className="card-image" />
+      <LineChart chartData={chartTest} />
       <div className="card-content">
         <h2 className="card-title">{title}</h2>
         <p>{content}</p>
