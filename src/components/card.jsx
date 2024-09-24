@@ -2,7 +2,7 @@ import React from 'react';
 import '../Style/Card.css';
 import LineChart from './LineChart';
 
-const Card = ({ title, content, chartTest, button }) => {
+const Card = ({ title, content, chartTest }) => {
   return (
     <div className="card">
       <LineChart chartData={chartTest} />
