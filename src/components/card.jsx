@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Style/Card.css';
-import LineChart from './LineChart';
+import LineChart from '../Components/LineChart';
 
 const Card = ({ title, content, chartTest }) => {
   return (

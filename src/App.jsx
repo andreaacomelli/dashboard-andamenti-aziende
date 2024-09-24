@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Card from './Components/Card.jsx';
-import LineChart from './components/LineChart.jsx';
 import './Style/App.css';
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
